@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 - Javascript Drum Kit</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <div id="keys-container">
+            <div class="keys" data-key="a">
+                <kbd>A</kbd>
+                <span>CLAP</span>
+            </div>
+            <div class="keys" data-key="s">
+                <kbd>S</kbd>
+                <span>HIHAT</span>
+            </div>
+            <div class="keys" data-key="d">
+                <kbd>D</kbd>
+                <span>KICK</span>
+            </div>
+            <div class="keys" data-key="f">
+                <kbd>F</kbd>
+                <span>OPENHAT</span>
+            </div>
+            <div class="keys" data-key="g">
+                <kbd>G</kbd>
+                <span>BOOM</span>
+            </div>
+            <div class="keys" data-key="h">
+                <kbd>H</kbd>
+                <span>RIDE</span>
+            </div>
+            <div class="keys" data-key="j">
+                <kbd>J</kbd>
+                <span>SNARE</span>
+            </div>
+            <div class="keys" data-key="k">
+                <kbd>K</kbd>
+                <span>TOM</span>
+            </div>
+            <div class="keys" data-key="l">
+                <kbd>L</kbd>
+                <span>TINK</span>
+            </div>
+        </div>
+
+        <audio src="sounds/clap.wav" data-key="a"></audio>
+        <audio src="sounds/hihat.wav" data-key="s"></audio>
+        <audio src="sounds/kick.wav" data-key="d"></audio>
+        <audio src="sounds/openhat.wav" data-key="f"></audio>
+        <audio src="sounds/boom.wav" data-key="g"></audio>
+        <audio src="sounds/ride.wav" data-key="h"></audio>
+        <audio src="sounds/snare.wav" data-key="j"></audio>
+        <audio src="sounds/tom.wav" data-key="k"></audio>
+        <audio src="sounds/tink.wav" data-key="l"></audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
