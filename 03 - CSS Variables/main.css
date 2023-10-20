@@ -1,0 +1,50 @@
+:root {
+    --background: #F56217;
+    --blur: 10px;
+    --spacing: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0B486B;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h1 > span {
+    color: var(--background);
+}
+
+img {
+    filter: blur(var(--blur));
+    padding: var(--spacing);
+    background-color: var(--background);
+    position: absolute;
+}
+
+#setting-container {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#setting-container > label {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#setting-container > input {
+    margin-right: 10px;
+}
