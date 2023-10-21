@@ -148,7 +148,7 @@ const data = [
 
 const transportationInstance = data.reduce((obj, item) => {
   if (!obj[item]) {
-    obj[item] = 1;
+    obj[item] = 0;
   }
   obj[item]++;
 
